@@ -17,4 +17,5 @@ endif()
 			list(APPEND LIBGIT2_PC_REQUIRES "zlib")
 		endif()
 		add_feature_info(zlib ON "using system zlib")
+	endif()
 
